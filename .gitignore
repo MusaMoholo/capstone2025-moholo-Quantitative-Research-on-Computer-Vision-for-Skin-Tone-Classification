@@ -1,1 +1,15 @@
 data/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+.vscode/
+.idea/
+.streamlit/
+exports/**/checkpoints/
+outputs/
+data/
+*.log
+.env
