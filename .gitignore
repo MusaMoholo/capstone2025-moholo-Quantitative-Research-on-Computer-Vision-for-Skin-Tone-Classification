@@ -13,3 +13,4 @@ outputs/
 data/
 *.log
 .env
+skinvenv/
