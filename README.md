@@ -1,18 +1,25 @@
-# Skin Tone Classification Prototype (Streamlit)
+# Quantitative Research on Computer Vision for Skin Tone Classification
 
-This prototype demonstrates a skeleton of the skin tone classification app, built with Streamlit. The app simulates model outputs and prepares for full integration with an image classification model and API.
+This repository accompanies the MSc thesis **“Quantitative Research on Computer Vision for Skin Tone Classification.”**  
+It investigates 6-class Fitzpatrick skin-tone classification using a MobileNetV3-Large backbone with calibration and simple preprocessing. The repo includes training/evaluation code, figure-generation scripts, and a small Streamlit demo to illustrate how a product **could** embed the model.
 
-## Directory Overview
+> **Research use only.** This is **not** a clinical device and must not be used for diagnosis or triage.
 
-- `scripts/app/app.py`: Streamlit frontend prototype
-- `scripts/data/data_load.py`: Script to download images from Fitzpatrick17k
-- `data/`: Organized images by skin tone (for training/testing)
-- `data/fitzpatrick17k.csv`: Original dataset CSV with image URLs and labels
-- `requirements.txt`: Python package requirements
+## What’s here
+- **`src/`** — Training/evaluation pipelines, metrics, calibration, figure scripts, and data utilities.
+- **`streamlit_app/`** — Minimal demo app (illustrative only).
+- **`outputs/`** — Run artifacts (logs, metrics, checkpoints) created locally.
+- **`exports/champion/`** — Inference bundle (e.g., `model.keras`, `T.txt`, optional maps/configs).
 
-## How to Run
+## At a glance
+- Task: 6-class (Fitzpatrick I–VI) image classification
+- Model: MobileNetV3-Large + classifier head
+- Reporting: macro-F1 and reliability (temperature scaling)
+- Repro: scripts to regenerate figures/tables from thesis
 
-1. Set up a virtual environment (optional):
-```bash
-python -m venv skinvenv
-source skinvenv/bin/activate
+## Citation
+Moholo, M. (2025). *Quantitative Research on Computer Vision for Skin Tone Classification*. MSc Thesis.  
+Repository: https://github.com/MusaMoholo/capstone2025-moholo-Quantitative-Research-on-Computer-Vision-for-Skin-Tone-Classification
+
+## License
+Specify a license (e.g., MIT/Apache-2.0) or “All rights reserved.”
