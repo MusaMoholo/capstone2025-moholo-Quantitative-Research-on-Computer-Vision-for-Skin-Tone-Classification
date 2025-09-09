@@ -1,6 +1,6 @@
-# Quantitative Research on Computer Vision for Skin Tone Classification
+# Fairness-Aware Fitzpatrick Classification Under Low Compute
 
-This repository accompanies the MSc thesis **“Quantitative Research on Computer Vision for Skin Tone Classification.”**  
+This repository accompanies the MSc thesis **“Fairness-Aware Fitzpatrick Classification Under Low Compute.”**  
 It investigates 6-class Fitzpatrick skin-tone classification using a MobileNetV3-Large backbone with calibration and simple preprocessing. The repo includes training/evaluation code, figure-generation scripts, and a small Streamlit demo to illustrate how a product **could** embed the model.
 
 > **Research use only.** This is **not** a clinical device and must not be used for diagnosis or triage.
@@ -18,7 +18,7 @@ It investigates 6-class Fitzpatrick skin-tone classification using a MobileNetV3
 - Repro: scripts to regenerate figures/tables from thesis
 
 ## Citation
-Moholo, M. (2025). *Quantitative Research on Computer Vision for Skin Tone Classification*. MSc Thesis.  
+Moholo, M. (2025). *QFairness-Aware Fitzpatrick Classification Under Low Compute*. MSc Thesis.  
 Repository: https://github.com/MusaMoholo/capstone2025-moholo-Quantitative-Research-on-Computer-Vision-for-Skin-Tone-Classification
 
 ## License
